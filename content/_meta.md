@@ -3,6 +3,6 @@ Logo: image/EMILP.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/1emilolofsson/example-repo/branches
+      url: https://github.com/1emilolofsson/example-repo
       icon: github
 ---
