@@ -1,15 +1,9 @@
 body {
-    background-color: pink;
+    background-color: rgb(132, 209, 158);
 }
 
 .header {
     margin-left: 300px;
-}
-* {
-    box-sizing: border-box;
-    border: 0 none;
-    margin: 0;
-    padding: 0;
 }
 
 ol, ul {
@@ -65,7 +59,8 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: rgb(255, 255, 255);
+    font-size: larger;
 }
 
 .title p {
@@ -81,7 +76,7 @@ body {
 }
 
 .footer a {
-    color: #222;
+    color: rgb(0, 0, 0);
 }
 
 .footer .social {
@@ -91,9 +86,9 @@ body {
 /* Typografy */
 
 body {
-    font-family: sans-serif;
-    line-height: 1.5rem;
-    color: #444;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 3rem;
+    color: rgb(0, 0, 0);
 }
 
 p, td, th, li, dd {
@@ -107,9 +102,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
-img {
-    max-width: 100%;
-}
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
