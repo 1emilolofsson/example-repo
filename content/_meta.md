@@ -1,5 +1,5 @@
 ---
-Logo: image/EMILP.png
+Logo: EO.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
