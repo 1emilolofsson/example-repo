@@ -1,0 +1,38 @@
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+    text-align: center;
+}
+
+.logo>a>img {
+    max-width: 400px;
+    width: 400px;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title p {
+    color: rgb(128, 128, 250);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.site_title {
+    background-image: url('/portfolio/EO.png');
+}

@@ -1,0 +1,19 @@
+
+body {
+    background-color: $background-color;
+    background-color: #000;
+    background-image: url('/background.png');
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main {
+    flex: 1 0 auto;
+    margin: 2em auto;
+    width: 64em;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
