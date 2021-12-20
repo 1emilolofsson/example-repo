@@ -1,8 +1,8 @@
 ---
 Logo: EO.png
-Tagline: My portfolio.
+Tagline: 
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/1emilolofsson/example-repo
-      icon: github
+      icon: fab fa-github
 ---

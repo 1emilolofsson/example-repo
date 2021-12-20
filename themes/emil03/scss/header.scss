@@ -9,6 +9,10 @@
     width: 300px;
 }
 
+.logo{
+    background-image: url('/EO.png');
+}
+
 @media (max-width: 767px) {
     .title, .logo {
         padding: 1em 1em 1em 0;
