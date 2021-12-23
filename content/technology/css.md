@@ -11,3 +11,7 @@ Cascading Style Sheets är språk för att beskriva utseende av element i ett ma
 I CSS använder vi selektorer för att beskriva vilka element vi vill påverka och deklarerar sedan stilen för elementen i ett block.
 
 Om vi till exempel vill sätta färgen för alla textstycken till blå gör vi på följande sätt.
+
+<div class="kmom-box">
+Kmom01
+</div>

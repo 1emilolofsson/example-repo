@@ -6491,7 +6491,7 @@ pre code {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -6502,18 +6502,12 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background-color: brown;
-  display: flex;
-  flex-direction: column;
+  height: 100%;
 }
 
 .main {
   flex: 1 0 auto;
-  margin: 2em auto;
-  width: 64em;
-}
-
-.header, .footer {
-  flex: 0 0 auto;
+  margin: 50px 100px 150px 100px;
 }
 
 .header, .site-header {
@@ -6525,6 +6519,42 @@ body {
 .logo > a > img {
   max-width: 400px;
   width: 300px;
+}
+
+.technology-container {
+  display: grid;
+  gap: 2em 2em;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.technology {
+  grid-column: span 3;
+}
+
+.technology:nth-child(n + 4) {
+  grid-column: span 1;
+}
+
+.sidebar {
+  float: left;
+  height: 300px;
+}
+
+.article {
+  float: right;  
+  width: 800px;
+}
+@media (max-width: 1300px) {
+  .article {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .article {
+    width: 350px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -6539,6 +6569,18 @@ body {
   .logo {
     max-width: 30%;
   }
+
+  .technology:nth-child(n + 4) {
+    grid-column: span 3;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .article {
+    width: 200px;
+  }
 }
 
 .li {
@@ -6546,13 +6588,11 @@ body {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  padding: 1em;
+  bottom: 0;
+  position: fixed;
   background-color: #000;
   color: #ffebcd;
-  justify-content: space-between;
 }
 
 .footer a {
@@ -6567,61 +6607,9 @@ body {
   font-size: 2rem;
 }
 
-.technology-container {
-    display: grid;
-    grid-column: span 3;
-    gap: 2em 2em;
-    align-items: flex-end;
-}
-
-.technology-container h1,
-.technology-container p {
-    grid-column: span 3;
-}
-
 .pages {
   display: grid;
-  grid-column: span 3;
+  grid-column: span 2;
   gap: 2em 2em;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.1fr 0.1fr;
 }
-
-@media (max-width: 767px) {
-  .pages,
-  .technology-container{
-      padding: 1em 1em 1em 0;
-  }
-
-  .technology-container {
-      max-width: 50%;
-  }
-
-  .pages {
-      max-width: 50%;
-  }
-}
-
-
-@media only screen and (max-width: 1200px) {
-  p, h1, h2, h3, h4, h5, h6 {
-    max-width: 50%; 
-    flex-basis: 45%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .main {
-    padding-bottom: 100px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  p, h1, h2, h3, h4, h5, h6 {
-    max-width: 50%; 
-    flex-basis: 100%;
-  }
-  .main {
-    padding-bottom: 150px;
-  }
-}
-
