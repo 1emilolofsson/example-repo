@@ -1,0 +1,19 @@
+.footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #ffebcd;
+}
+
+.footer>div {
+    text-align: left;
+}
+
+.footer .social {
+    font-size: 2rem;
+}

@@ -1,9 +1,9 @@
 ---
-Title: Teknologi
+Title: TEKNOLOGI
 Description: This is my report page.
 Template: technologies
 ---
 
-Report
+__TEKNOLOGIER.__
 ==========================
 

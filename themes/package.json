@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
  
-  "scripts": {   
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "stylelint \"**/*.scss\"", 
-    "lint:fix": "sass-lint-auto-fix",
-    "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
-  },
+    "lint": "stylelint \"**/*.scss\"",
+    "watch": "sass emil04/scss/style.scss:emil04/css/style.css emil04/scss/style-dark.scss:emil04/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass emil04/scss/style.scss:emil04/css/style.min.css emil04/scss/style-dark.scss:emil04/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass emil04/scss/style-dark.scss emil04/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass emil04/scss/style-dark.scss emil04/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass emil04/scss/style.scss emil04/css/style.css --no-source-map",
+    "style-light-min": "sass emil04/scss/style.scss emil04/css/style.min.css --no-source-map --style compressed"
+},
 
   "keywords": [],
   "author": "",

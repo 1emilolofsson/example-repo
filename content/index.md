@@ -1,10 +1,9 @@
 ---
-Title: Home
+Title: HEM
 Description: This is our index page.
 ---
 
-VÄLKOMMEN
+__VÄLKOMMEN.__
 =========================
 
-Den här sidan är under konstruktion. Det senaste uppdateringarna finns i sidan för teknologi.
--------------------------
+Den här sidan är under konstruktion. De senaste uppdateringarna är en darkmode funktion och en rapport som ligger under färg i analys.

@@ -1,0 +1,31 @@
+
+@import '../../node_modules/normalize.css/normalize';
+
+@import 'variables-dark';
+
+$font-color: #a4dbff;
+$font-alternative-color: rgb(224, 133, 133);
+$accent-color: rgb(206, 58, 58);
+$background-color: #082253;
+$footer-background-color: rgb(128, 20, 20);
+$footer-text-color: chartreuse;
+
+$font-body: 'Roboto', sans-serif;
+$font-headings: 'Open Sans', sans-serif;
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import 'blockquotes';
+@import 'code';
+@import 'typography';
+@import 'main';
+@import 'header';
+@import 'footer';
+@import 'technology';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
