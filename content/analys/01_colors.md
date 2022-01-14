@@ -13,9 +13,18 @@ URVAL
 
 Webbplatserna jag valt för denna undersökningen är Netflix, HBOMAX och SVT. Dessa val har gjorts dels för att jag har tillgång med inlogg till att se hela webbplatsen och dess funktioner och att de vid en snabb anblick skiljer sig sidorna enligt mig känslomässigt men inte så mycket i deras färgtema, även om de har något olika färger. Detta skapade intresse hos mig att göra undersökningen. Dessutom blir det tydligare att jämföra webbplatserna när de är inom samma område men med något annorlunda nischar. 
 
-<img src="./assets/img/hbo.png"alt="Alt-Text" style="height: 250px; width: 500px"/>
-<img src="./assets/img/netflix.png"alt="Alt-Text" style="height: 250px; width: 500px"/>
-<img src="./assets/img/svt.png"alt="Alt-Text" style="height: 250px; width: 500px"/>
+<div>
+    <a href="%base_url/image/hbo.png" target="_blank"><img
+    src="%base_url%/image/hbo.png?h=250&w=500" alt="hbo"></a>
+</div>
+<div>
+    <a href="%base_url/image/netflix.png" target="_blank"><img
+    src="%base_url%/image/netflix.png?h=250&w=500" alt="netflix"></a>
+</div>
+<div>
+    <a href="%base_url/image/svt.png" target="_blank"><img
+    src="%base_url%/image/svt.png?h=250&w=500" alt="svt"></a>
+</div>
 
 METOD
 -----------------------
