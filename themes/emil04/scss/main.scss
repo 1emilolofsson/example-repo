@@ -98,11 +98,10 @@ body {
     width: 100%;
     bottom: 0;
     position: fixed;
-    background-color: black;
   }
   
   .footer a {
-    color: #ffffff;
+    color: #db1919;
   }
   
   .footer > div {
@@ -153,4 +152,24 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* Resten av min stylesheet */
+* {
+  color: #faf600;
+}
+
+body {
+  flex-direction: column;
+  overflow-x: auto;
+  background-image: url("/kallsjön.JPG");
+}
+
+.nav {
+  margin-right: 7%;
+  font-size: 40px;
+}
+
+#nav a:hover {
+  color: rgb(238, 255, 0);
 }

@@ -6497,13 +6497,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Resten av min stylesheet */
 * {
-  color: #082253;
+  color: #faf600;
 }
 
 body {
-  background-color: #a4dbff;
   flex-direction: column;
   overflow-x: auto;
+  background-image: url("kallsjön.JPG");
 }
 
 .main {
@@ -6595,11 +6595,10 @@ body {
   width: 100%;
   bottom: 0;
   position: fixed;
-  background-color: black;
 }
 
 .footer a {
-  color: #ffffff;
+  color: #fbff00;
 }
 
 .footer > div {
@@ -6620,7 +6619,6 @@ body {
 .header, .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
 }
 
 .logo > a > img {
@@ -6628,9 +6626,6 @@ body {
   width: 300px;
 }
 
-.logo {
-  background-image: url("/EO.png");
-}
 
 @media (max-width: 767px) {
   .title, .logo {
@@ -6654,7 +6649,7 @@ body {
 }
 
 .footer a {
-  color: #ffebcd;
+  color: #ffffff;
 }
 
 .footer > div {
@@ -6663,4 +6658,13 @@ body {
 
 .footer .social {
   font-size: 2rem;
+}
+
+.nav {
+  margin-right: 7%;
+  font-size: 40px;
+}
+
+#nav a:hover {
+  color: rgb(238, 255, 0);
 }

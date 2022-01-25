@@ -1,5 +1,5 @@
 ---
-Logo: EO.png
+Logo: 
 Tagline: 
 Social:
     - title: Link till sidans github repo.
